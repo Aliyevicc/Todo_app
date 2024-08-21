@@ -14,7 +14,7 @@ class AppRouter {
       Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (BuildContext context) => DetailScreen(todo: todo),
+          builder: (BuildContext context) => DetailScreen(todo: todo, toggleTheme: () {},),
         ),
       );
 
